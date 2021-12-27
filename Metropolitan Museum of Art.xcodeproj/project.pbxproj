@@ -1,0 +1,484 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		161475112778F47700412E1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475102778F47700412E1B /* AppDelegate.swift */; };
+		161475132778F47700412E1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475122778F47700412E1B /* SceneDelegate.swift */; };
+		161475182778F47700412E1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 161475162778F47700412E1B /* Main.storyboard */; };
+		1614751A2778F47B00412E1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 161475192778F47B00412E1B /* Assets.xcassets */; };
+		1614751D2778F47B00412E1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1614751B2778F47B00412E1B /* LaunchScreen.storyboard */; };
+		161475252778F52A00412E1B /* SearchScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475242778F52A00412E1B /* SearchScreenViewController.swift */; };
+		1614752B2779091700412E1B /* SearchResultTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614752A2779091700412E1B /* SearchResultTableViewCell.swift */; };
+		1614752D2779112300412E1B /* FavoriteCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614752C2779112300412E1B /* FavoriteCollectionViewCell.swift */; };
+		1614752F277918E100412E1B /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614752E277918E100412E1B /* PersistenceManager.swift */; };
+		161475312779294100412E1B /* DetailScreenTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475302779294100412E1B /* DetailScreenTableViewController.swift */; };
+		161475332779312F00412E1B /* GalleryCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475322779312F00412E1B /* GalleryCollectionViewCell.swift */; };
+		161475352779431700412E1B /* FURL.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475342779431700412E1B /* FURL.swift */; };
+		161475372779433D00412E1B /* AppConfigs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475362779433D00412E1B /* AppConfigs.swift */; };
+		161475392779444600412E1B /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 161475382779444600412E1B /* NetworkManager.swift */; };
+		1614753B2779472F00412E1B /* ObjectResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614753A2779472F00412E1B /* ObjectResponseModel.swift */; };
+		1614753D2779482100412E1B /* SearchResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614753C2779482100412E1B /* SearchResponseModel.swift */; };
+		1614753F2779649D00412E1B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1614753E2779649D00412E1B /* Extensions.swift */; };
+		663DC202B8EC57EB78761C7C /* Pods_Metropolitan_Museum_of_Art.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67B17F8D39D131865532062A /* Pods_Metropolitan_Museum_of_Art.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1614750D2778F47700412E1B /* Metropolitan Museum of Art.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Metropolitan Museum of Art.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		161475102778F47700412E1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		161475122778F47700412E1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		161475172778F47700412E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		161475192778F47B00412E1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1614751C2778F47B00412E1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1614751E2778F47B00412E1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		161475242778F52A00412E1B /* SearchScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchScreenViewController.swift; sourceTree = "<group>"; };
+		1614752A2779091700412E1B /* SearchResultTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultTableViewCell.swift; sourceTree = "<group>"; };
+		1614752C2779112300412E1B /* FavoriteCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteCollectionViewCell.swift; sourceTree = "<group>"; };
+		1614752E277918E100412E1B /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		161475302779294100412E1B /* DetailScreenTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenTableViewController.swift; sourceTree = "<group>"; };
+		161475322779312F00412E1B /* GalleryCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GalleryCollectionViewCell.swift; sourceTree = "<group>"; };
+		161475342779431700412E1B /* FURL.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FURL.swift; sourceTree = "<group>"; };
+		161475362779433D00412E1B /* AppConfigs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfigs.swift; sourceTree = "<group>"; };
+		161475382779444600412E1B /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		1614753A2779472F00412E1B /* ObjectResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectResponseModel.swift; sourceTree = "<group>"; };
+		1614753C2779482100412E1B /* SearchResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResponseModel.swift; sourceTree = "<group>"; };
+		1614753E2779649D00412E1B /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		55C169FDA1C353CA3E39B5BD /* Pods-Metropolitan Museum of Art.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metropolitan Museum of Art.release.xcconfig"; path = "Target Support Files/Pods-Metropolitan Museum of Art/Pods-Metropolitan Museum of Art.release.xcconfig"; sourceTree = "<group>"; };
+		67B17F8D39D131865532062A /* Pods_Metropolitan_Museum_of_Art.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Metropolitan_Museum_of_Art.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1C49B58324E79DD628ECE85 /* Pods-Metropolitan Museum of Art.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Metropolitan Museum of Art.debug.xcconfig"; path = "Target Support Files/Pods-Metropolitan Museum of Art/Pods-Metropolitan Museum of Art.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1614750A2778F47700412E1B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				663DC202B8EC57EB78761C7C /* Pods_Metropolitan_Museum_of_Art.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		161475042778F47700412E1B = {
+			isa = PBXGroup;
+			children = (
+				1614750F2778F47700412E1B /* Metropolitan Museum of Art */,
+				1614750E2778F47700412E1B /* Products */,
+				CFF4437655E97CD12111E7C1 /* Pods */,
+				C70302340A2E6D6D2BFD45A2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1614750E2778F47700412E1B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1614750D2778F47700412E1B /* Metropolitan Museum of Art.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1614750F2778F47700412E1B /* Metropolitan Museum of Art */ = {
+			isa = PBXGroup;
+			children = (
+				16147540277992D300412E1B /* Managers */,
+				161475272778F56500412E1B /* Model */,
+				161475262778F55B00412E1B /* View */,
+				161475102778F47700412E1B /* AppDelegate.swift */,
+				161475122778F47700412E1B /* SceneDelegate.swift */,
+				161475192778F47B00412E1B /* Assets.xcassets */,
+				1614751E2778F47B00412E1B /* Info.plist */,
+				161475242778F52A00412E1B /* SearchScreenViewController.swift */,
+				161475302779294100412E1B /* DetailScreenTableViewController.swift */,
+				161475342779431700412E1B /* FURL.swift */,
+				161475362779433D00412E1B /* AppConfigs.swift */,
+				1614753E2779649D00412E1B /* Extensions.swift */,
+			);
+			path = "Metropolitan Museum of Art";
+			sourceTree = "<group>";
+		};
+		161475262778F55B00412E1B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				161475162778F47700412E1B /* Main.storyboard */,
+				1614751B2778F47B00412E1B /* LaunchScreen.storyboard */,
+				1614752A2779091700412E1B /* SearchResultTableViewCell.swift */,
+				1614752C2779112300412E1B /* FavoriteCollectionViewCell.swift */,
+				161475322779312F00412E1B /* GalleryCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		161475272778F56500412E1B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1614753A2779472F00412E1B /* ObjectResponseModel.swift */,
+				1614753C2779482100412E1B /* SearchResponseModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		16147540277992D300412E1B /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				1614752E277918E100412E1B /* PersistenceManager.swift */,
+				161475382779444600412E1B /* NetworkManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		C70302340A2E6D6D2BFD45A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				67B17F8D39D131865532062A /* Pods_Metropolitan_Museum_of_Art.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CFF4437655E97CD12111E7C1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F1C49B58324E79DD628ECE85 /* Pods-Metropolitan Museum of Art.debug.xcconfig */,
+				55C169FDA1C353CA3E39B5BD /* Pods-Metropolitan Museum of Art.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1614750C2778F47700412E1B /* Metropolitan Museum of Art */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 161475212778F47B00412E1B /* Build configuration list for PBXNativeTarget "Metropolitan Museum of Art" */;
+			buildPhases = (
+				AF4E5060A68BB88501A86768 /* [CP] Check Pods Manifest.lock */,
+				161475092778F47700412E1B /* Sources */,
+				1614750A2778F47700412E1B /* Frameworks */,
+				1614750B2778F47700412E1B /* Resources */,
+				43A2723EC7F5FFC706E09A93 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Metropolitan Museum of Art";
+			productName = "Metropolitan Museum of Art";
+			productReference = 1614750D2778F47700412E1B /* Metropolitan Museum of Art.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		161475052778F47700412E1B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					1614750C2778F47700412E1B = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 161475082778F47700412E1B /* Build configuration list for PBXProject "Metropolitan Museum of Art" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 161475042778F47700412E1B;
+			productRefGroup = 1614750E2778F47700412E1B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1614750C2778F47700412E1B /* Metropolitan Museum of Art */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1614750B2778F47700412E1B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1614751D2778F47B00412E1B /* LaunchScreen.storyboard in Resources */,
+				1614751A2778F47B00412E1B /* Assets.xcassets in Resources */,
+				161475182778F47700412E1B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		43A2723EC7F5FFC706E09A93 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metropolitan Museum of Art/Pods-Metropolitan Museum of Art-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Metropolitan Museum of Art/Pods-Metropolitan Museum of Art-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Metropolitan Museum of Art/Pods-Metropolitan Museum of Art-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF4E5060A68BB88501A86768 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Metropolitan Museum of Art-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		161475092778F47700412E1B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				161475112778F47700412E1B /* AppDelegate.swift in Sources */,
+				161475332779312F00412E1B /* GalleryCollectionViewCell.swift in Sources */,
+				161475252778F52A00412E1B /* SearchScreenViewController.swift in Sources */,
+				161475372779433D00412E1B /* AppConfigs.swift in Sources */,
+				161475392779444600412E1B /* NetworkManager.swift in Sources */,
+				1614752B2779091700412E1B /* SearchResultTableViewCell.swift in Sources */,
+				1614752F277918E100412E1B /* PersistenceManager.swift in Sources */,
+				1614753B2779472F00412E1B /* ObjectResponseModel.swift in Sources */,
+				161475132778F47700412E1B /* SceneDelegate.swift in Sources */,
+				161475352779431700412E1B /* FURL.swift in Sources */,
+				1614753D2779482100412E1B /* SearchResponseModel.swift in Sources */,
+				161475312779294100412E1B /* DetailScreenTableViewController.swift in Sources */,
+				1614752D2779112300412E1B /* FavoriteCollectionViewCell.swift in Sources */,
+				1614753F2779649D00412E1B /* Extensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		161475162778F47700412E1B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				161475172778F47700412E1B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1614751B2778F47B00412E1B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1614751C2778F47B00412E1B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1614751F2778F47B00412E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		161475202778F47B00412E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		161475222778F47B00412E1B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C49B58324E79DD628ECE85 /* Pods-Metropolitan Museum of Art.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6858356S5P;
+				INFOPLIST_FILE = "Metropolitan Museum of Art/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikramuzzaman.Metropolitan-Museum-of-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		161475232778F47B00412E1B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55C169FDA1C353CA3E39B5BD /* Pods-Metropolitan Museum of Art.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6858356S5P;
+				INFOPLIST_FILE = "Metropolitan Museum of Art/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ikramuzzaman.Metropolitan-Museum-of-Art";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		161475082778F47700412E1B /* Build configuration list for PBXProject "Metropolitan Museum of Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1614751F2778F47B00412E1B /* Debug */,
+				161475202778F47B00412E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		161475212778F47B00412E1B /* Build configuration list for PBXNativeTarget "Metropolitan Museum of Art" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				161475222778F47B00412E1B /* Debug */,
+				161475232778F47B00412E1B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 161475052778F47700412E1B /* Project object */;
+}
